@@ -16,7 +16,7 @@ After 2 hours:
 4. made axios call to url to store data (get call)
 
 
-Still needs to be worked on:
+Still need to be worked on:
 1. Styling
 2. make axios post call to confirm subscription plan
 3. User login / signup (need to make api calls to complete these too.
