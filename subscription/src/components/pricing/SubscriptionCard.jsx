@@ -19,6 +19,7 @@ const SubscriptionCard = ({title}) => {
             <h1>{data.plan.data}</h1>
             <p>{data.plan.content}</p>
             <p>{data.plan.pricing}</p>
+            <p>Need to style and have data on this page</p>
         </div>
     )
 

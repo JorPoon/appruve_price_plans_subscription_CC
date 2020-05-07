@@ -22,7 +22,7 @@ const PricingCard = (props) => {
             <Card className={classes.container}>
                 <h2>{title}</h2>
                 <CardContent>Content</CardContent>
-                <Link to={`/SubscriptionCard${title}`}>
+                <Link to={`/subscription/${title}`}>
                     <Button>
                         Subscribe!
                     </Button>

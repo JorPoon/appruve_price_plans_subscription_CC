@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Route path="/" component={PricingPage}/>
-        <Route exact path="/subscriptionplan" component={SubscriptionCard}/>
+        <Route exact path="/" component={PricingPage}/>
+        <Route exact path="/subscription/:id" component={SubscriptionCard}/>
       </div>
     </Router>
     
