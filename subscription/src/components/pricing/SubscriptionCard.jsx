@@ -7,11 +7,11 @@ const SubscriptionCard = ({title}) => {
     
     useEffect(() => {
         async function fetchAPI() {
-            const response = await axios(`www.api.com${title}`)
+            const response = await axios(`www.api.com$/${title}`)
             setData(response.data)
           }
           fetchAPI()
-    },[title])
+    },[])
 
 
     return (
