@@ -5,6 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 import { makeStyles } from '@material-ui/core/styles';
 import { orange } from '@material-ui/core/colors';
+import {Link} from 'react-router-dom'
 
 
 const useStyles = makeStyles(() => ({
@@ -21,7 +22,11 @@ const PricingCard = (props) => {
             <Card className={classes.container}>
                 <h2>{title}</h2>
                 <CardContent>Content</CardContent>
-                <Button>Subscribe!</Button>
+                <Link to={`/SubscriptionCard${title}`}>
+                    <Button>
+                        Subscribe!
+                    </Button>
+                </Link>
             </Card>
         </>
     )
