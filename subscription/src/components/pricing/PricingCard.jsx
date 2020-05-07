@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { orange } from '@material-ui/core/colors';
 
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     container: {
         background: orange
     }
