@@ -1,12 +1,15 @@
 import React from 'react'
 import PricingView from '../views/PricingView'
-import Navbar from '../components/heading/NavBar'
+// import Navbar from '../components/heading/NavBar'
+import PricingCard from '../components/pricing/PricingCard'
 
-export const PricingPage = () => {
+const PricingPage = () => {
     return (
         <>
-        <NavBar/>
+       
         <PricingView/>
         </>
     )
 }
+
+export default PricingCard

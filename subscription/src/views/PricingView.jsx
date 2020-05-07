@@ -2,7 +2,7 @@ import React from 'react'
 import PricingCard from '../components/pricing/PricingCard'
 
 
-export const PricingView = () => {
+const PricingView = () => {
     return (
         <div className='Pricing-View'>
             <PricingCard/>
@@ -11,3 +11,5 @@ export const PricingView = () => {
         </div>
     )
 }
+
+export default PricingView
