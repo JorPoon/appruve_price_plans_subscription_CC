@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Route path="/pricingpage" component={PricingPage}/>
+        <Route path="/" component={PricingPage}/>
         <Route exact path="/subscriptionplan" component={SubscriptionCard}/>
       </div>
     </Router>
