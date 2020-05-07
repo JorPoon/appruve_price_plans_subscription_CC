@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 
 const useStyles = makeStyles(() => ({
     container: {
-        background: orange
+        background: orange[50]
     }
 }))
 
